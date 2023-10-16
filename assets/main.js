@@ -24,7 +24,6 @@
 
 // ---------------------------------------------------------------------------
 
-
 // function topla(...nums){
 //     return nums.reduce((a,b)=> a+b,0)
 
@@ -67,10 +66,6 @@
 // }
 
 // console.log(hesabla (bolme, 8,2))
-
-
-
-
 
 // --------------------------------
 // const arr = [
@@ -179,8 +174,6 @@
 //   },
 // ];
 
-
-
 // const arr1=arr.filter((x)=> x.unitPrice > 20 && x.unitPrice < 40  && x.categoryId > 4)
 
 // console.log(arr1)
@@ -191,11 +184,59 @@
 //     }
 // });
 
-
 // arr.forEach(i => {
 //     if (i.id > 5 && i.id < 10) {
 //         console.log(i)
-//     } 
+//     }
 // });
 
+// --------------------------------------------
 
+// default value of function
+
+// function salamla(name ='mehi') {
+//     console.log ('salam ' + name)
+// }
+
+// salamla('nur')
+
+// ----------------------------------------
+
+    // function decleration .var kimi
+
+// function sum (a,b){
+//     return a+b
+// }
+
+// 1. arrow function
+// const sum = (a,b)=> a + b
+
+// 2. function expresson
+
+//  const sum = function (a, b) {
+//   return a + b;
+// };
+
+
+// ---------------------------------------------
+
+ // function decleration
+    function names (name ='userName',surname='userSurname' ){
+        console.log('salam' + " " + name +' '+ surname)
+    }
+
+
+// // 1. arrow function
+const names2 =(name,surname) => console.log('salam' + " " + name +' '+ surname)
+
+// // 2. function expresson
+
+const names3 = function (name,surname) {
+    console.log('salam' + " " + name +' '+ surname)
+
+}
+
+
+names('mehi', 'xelilova')
+names2('mehi', 'xelilova')
+names3('mehi', 'xelilova')
